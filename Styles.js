@@ -28,6 +28,12 @@ export default styles = StyleSheet.create({
     color:'white',
     fontSize: 18
   },
+  fourthText:{
+    fontSize: 26, 
+    color:'black', 
+    padding:10, 
+    textAlign:'center'
+  },
   textInput:{
     height: 40,
     borderColor: 'gray',

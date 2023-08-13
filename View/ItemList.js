@@ -37,6 +37,7 @@ export default ItemList = ({route}) => {
 
   return (
     <View>
+      <Text style={Styles.fourthText}>Phone Book</Text>
       <ScrollView horizontal>
         <DataTable>
 

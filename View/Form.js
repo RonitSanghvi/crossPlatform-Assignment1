@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, StyleSheet } from 'react-native';
+import { View, StyleSheet, Text } from 'react-native';
 import { TextInput, Button } from 'react-native-paper';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import Styles from '../Styles';
@@ -41,6 +41,7 @@ const Form = ({route}) => {
 
   return (
     <View style={Styles.mainView}>
+      <Text style={Styles.secondText}>Add Phone Numbers</Text>
       <TextInput
         label="First Name"
         value={firstName}
