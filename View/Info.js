@@ -10,11 +10,11 @@ export default Info = () => {
       <View style={Styles.line} />
       <Text style={Styles.secondText}>Team Members</Text>
       <ScrollView >
-        <Text style={Styles.thirdText}>Ronit Sanghvi: 200543133</Text>
-        <Text style={Styles.thirdText}>Masum Salvi: 200543133</Text>
-        <Text style={Styles.thirdText}>Saunik Dabhi: 200543133</Text>
-        <Text style={Styles.thirdText}>Himanshu Makhija: 200543133</Text>
-        <Text style={Styles.thirdText}>Karan Shah: 200543133</Text>
+        <Text style={Styles.thirdText}>Ronit Sanghvi</Text>
+        <Text style={Styles.thirdText}>Masum Salvi</Text>
+        <Text style={Styles.thirdText}>Saunik Dabhi</Text>
+        <Text style={Styles.thirdText}>Himanshu Makhija</Text>
+        <Text style={Styles.thirdText}>Karan Shah</Text>
       </ScrollView>
     </View>
   );
