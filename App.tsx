@@ -54,13 +54,4 @@ function App(): JSX.Element {
   );
 }
 
-const styles = StyleSheet.create({
-
-  highlight: {
-    color:'blue',
-    fontSize: 34,
-    fontWeight: 'bold',
-  },
-});
-
 export default App;
